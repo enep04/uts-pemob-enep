@@ -1,0 +1,27 @@
+name: monitoring_wfh
+description: "A new Flutter project."
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <3.0.0" # Sesuaikan versi Dart dengan versi SDK Flutter yang Anda gunakan
+
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_preferences: ^2.0.9 # Untuk menyimpan data check-in dan check-out pengguna
+  intl: ^0.17.0 # Untuk format waktu check-in dan check-out
+  file_picker: ^5.0.0 # Replace with the latest version
+
+  # Untuk ikon iOS (Cupertino)
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.1 # Untuk pengaturan linter dan memastikan coding style yang baik
+
+flutter:
+  uses-material-design: true
